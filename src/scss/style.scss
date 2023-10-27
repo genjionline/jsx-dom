@@ -1,0 +1,47 @@
+/*NULL*/
+h1,h2,h3,p{margin: 0;}
+/*NULL*/
+
+.wrapper{
+    max-width: 670px;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    background-color: #46b1de;
+    margin-bottom: 15px;
+}
+.article{
+    background-color: olivedrab;
+}
+.article__title{
+    margin-bottom: 10px;
+}
+.article__title h2{
+    text-align: center;
+}
+.article__description{
+    border: 5px solid black;
+    padding: 5px;
+    margin: 0 10px 0;
+}
+.article__actions{
+    display: flex;
+    justify-content:space-around;
+    margin: 10px 0 30px;
+}
+.article__actions button{
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: orange;
+    font-weight: 700;
+    border-style: none;
+    cursor: pointer;
+}
+.article__author{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    font-weight: 700;
+}
